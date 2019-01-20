@@ -2,14 +2,95 @@
 <html>
     <head>
         <title>Youtobe</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     </head>
     <body>
         <header>
             <ul>
-                <li>Dropdown</li>
-                <li>Youtube</li>
+                <li><i class="fas fa-align-justify"></i></li>
+                <li><i class="fab fa-youtube"></i> Premium</li>
+            </ul>
+            <ul>
+                <input type="search" placeholder="Search">
+                <button id="search-submit" type="submit"><i class="fas fa-search"></i></button>
+
+            </ul>
+            <ul>
+                <li><i class="fas fa-video"></i></li>
+                <li><i class="fas fa-th"></i></li>
+                <li><i class="fas fa-bell"></i></li>
+                <li><i class="fas fa-user-circle"></i></li>
             </ul>
         </header>
+        <div class="content">
+            <div id="video-section">
+                <iframe width="1280" height="720" src="https://www.youtube.com/embed/ieYp4yhrXj4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <h1 class="video-title">Dax - "Rap God" Freestyle [One Take Video]</h1>
+            </div>
+            <div class="description">
+                <ul>
+                    <li><h4>9,238,056 views</h4></li>
+                </ul>
+                <ul class="description-likes">
+                    <li><i class="fas fa-thumbs-up"></i>315k</li>
+                    <li><i class="far fa-thumbs-down"></i>15k</li>
+                    <li><i class="fas fa-share"></i>Share</li>
+                    <li><i class="fas fa-plus"></i>Save</li>
+                    <li><i class="fas fa-ellipsis-h"></i></li>
+                </ul>
+            </div>
+            <hr>
+            <div class="video-description-section">
+                <div class="user-pic-div">
+                    <img class="user-pic" src="photo.jpg">
+                </div>
+                <div class="user-name">
+                <h2>Dax</h2>
+                </div>
+                <div class="upload-date">
+                    <h3>Published on Nov 12, 2018</h3>
+                </div>
+                <div class="sub-btn">
+                    <button type="button">Subscribe 1.1M</button>
+                    <i class="fas fa-bell"></i>
+                </div>
+                <div class="video-description">
+                    <p>(LYRICS BELOW) To celebrate "She Cheated Again already almost hitting 2 million here is my "RAP GOD" freestlye. Originally freestyles this on 92.3LA then got convinced to make it a full song. Did I kill it?</p>
+                </div>
+            </div>
+            <hr>
+            
+            <div class="comment-section">
+                <div class="comment-stats">
+                    <h3>28,167 Comments</h3>
+                    <p><i class="fas fa-sort-amount-up"></i> Sort By</p>
+                </div>
+                <div class="comment-add">
+                    <i class="far fa-user-circle"></i>
+                    <input type="text" placeholder="Add a public comment">
+                </div>
+                <div class="comments">
+                    <img class="user-pic" src="photo.jpg">
+                    <h2>Dax</h2>
+                    <h3>2 months ago</h3>
+                    <p>LOL THIS IS NOT A DISS...Don’t let this distract you from the fact “She Cheated Again” just hit 2 mil in 12 days 💔 KEEP SHARING IT and share this new fire 🔥🔌</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="side-bar">
+            <div class="up-next">
+                <p>Up Next</p>
+                <p>Autoplay</p>
+                <label class="switch">
+                        <input type="checkbox">
+                        <span class="slider round"></span>
+                </label>
+            </div>
+        </div>
 
     </body>   
 </html>
