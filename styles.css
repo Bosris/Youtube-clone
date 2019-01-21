@@ -21,11 +21,15 @@ h4{
     color: #747474;
 }
 
+.youtube-logo{
+    color: #ff0000;
+}
+
 header{
     margin-top: 10px;
     display: flex;
     justify-content: space-between;
-    height: 56px;
+    height: 59px;
     font-size: 20px;
     
 }
@@ -42,22 +46,23 @@ header ul li {
   }
 
 input[type=search] {
-    height: 30px;
+    height: 33px;
     width: 500px;
 }
 #search-submit{
-    height: 30px;
+    height: 33px;
     width: 70px;
 }
 
 .content {
     display: flex;
     margin-top: 24px;
-    margin-left: 150px;
+    margin-left: 170px;
     flex-direction: column;
-    width: 65%;
+    width: 1290px;
     justify-content: flex-start;
     float: left;
+    
 }
 
 #video-section{
@@ -86,6 +91,10 @@ input[type=search] {
 
 .description-likes li{
     padding-left: 20px;
+}
+.description-likes i{
+    padding-right: 5px;
+    color: #BFBDBD;
 }
 
 .user-pic{
@@ -133,6 +142,8 @@ input[type=search] {
 .sub-btn button{
     height: 40px;
     width: 120px;
+    background-color: #ff0000;
+    border-radius: 20%;
 }
 
 .video-description{
@@ -228,8 +239,59 @@ margin-bottom: 30px;
   }
 
   .side-bar{
-      width: 200px;
+      width: 500px;
       display: inline-flex;
       flex-direction: column;
       justify-content: flex-end;
+      padding-left: 10px;  
+  }
+
+  #up-next-id{
+      width: auto;
+      height: 0px;
+  }
+  .autoplay{
+      float: left;
+      padding-left: 320px;
+      display: flex;
+      padding-top: 4px;
+      margin-bottom: 20px;
+      padding-right:9px;
+  }
+  .side-bar-title{
+      padding-left: 5px;
+      padding-bottom: 5px;
+  }
+
+  .side-bar-user{
+    color: gray;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    width: 140px;
+  }
+
+  .side-bar-views{
+      margin-right: 150px;
+      padding-left: 5px;
+      color: gray;
+      width: 82.28px;
+      
+  }
+
+  .videos{
+      margin-bottom: 20px;
+  }
+
+  .videos-ul{
+    list-style-type: none;
+  }
+
+  .videos li{
+      float: left;
+      justify-content: space-evenly;
+  }
+
+  .video-thumbnail{
+      height: 94px;
+      width: 168px;
   }
